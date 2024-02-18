@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #5C5A66;
+    --secondary-color: #FF7F00;
+    --primary-font: 'Montserrat';
+    --secondary-font: 'Oswald';
+    --text-primary-color: #FFFFFF;
+    --zone-background-color: #EDEDED;
+    --icone-background-color: #2C3E50;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    background-color: var(--zone-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--secondary-font);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+}
+
+main.container,
+.main.container {
+    margin: 50px auto 100px;
+}
+
+svg {
+    background-color: transparent;
+}
+
+form>div {
+    margin: 20px;
+}
+
+form>div label {
+    width: 100%;
+    display: block;
+}
+
+form>div input {
+    width: 100%;
+}
+
+form>div textarea {
+    width: 100%;
+    height: 30vh;
+}
